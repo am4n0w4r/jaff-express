@@ -1,0 +1,9 @@
+
+* express.Request becomes IWebRequest
+* express.NextFunction becomes INextFunction
+
+* cannot use advanced types on bindable arguments - only primitives and classes: e.g. 'string | null' will not work!
+
+* primitive action arguments can be marked for validation, and class arguments can be validated also
+
+* we don't work with Request, Next and Response in controllers anymore
